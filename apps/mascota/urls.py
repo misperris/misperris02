@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^listar$', MascotaList.as_view(), name='mascota_listar'),
     url(r'^editar/(?P<pk>\d+)/$', MascotaDelete.as_view(), name='mascota_editar'),
     url(r'^eliminar/(?P<pk>\d+)/$', MascotaDelete.as_view(), name='mascota_eliminar'),
+
 ]
